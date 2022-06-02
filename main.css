@@ -1,0 +1,458 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    .header__navbar-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 4px 0 0 0;
+        background-color: black;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .header__navbar-icon-link:hover {
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    
+    .header__navbar-icon-link,
+    .header__navbar-icon-search {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    
+    .header__navbar-icon {
+        font-size: 1.8rem;
+        margin: 8px 16px;
+    }
+    
+    .container {
+        background-color: rgb(250, 250, 250);
+        margin-top: -20px;
+        padding-bottom: ;
+    }
+    
+    .content-1 {
+        background-color: white;
+        margin: 0 100px;
+        height: 20%;
+        position: relative;
+    }
+    
+    .content1_text1 {
+        text-align: center;
+        font-weight: 100;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .content1_text1--text {
+        background-color: black;
+    }
+    
+    .content1_text1--span {
+        background-color: gray;
+        color: rgb(36, 36, 35);
+        margin: 0 8px;
+    }
+    
+    .content1_text2 {
+        position: absolute;
+        /* background-image: url('./image/jane.jpg');
+        height: 100vh; */
+        top: 120px;
+        left: 20px;
+        color: aliceblue;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1rem;
+    }
+    
+    .content1_text2--btn-subcribe {
+        background-color: rgb(230, 235, 235);
+        font-size: 0.8rem;
+        margin: 4px 8px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 800;
+        position: absolute;
+        left: -10px;
+        height: 30px;
+        width: 80px;
+        color: rgb(82, 82, 79);
+        border: 0;
+        border-radius: 0.2rem;
+    }
+    
+    .content1_text2--btn-subcribe:hover {
+        cursor: pointer;
+        color: black;
+    }
+    
+    .img-jane {
+        /* width: 100%;
+        object-fit: cover; */
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    
+    .big-content {
+        background-color: rgb(250, 250, 250);
+        display: flex;
+        top: 1800px;
+        justify-content: space-around;
+        margin: 10px 100px;
+        border-style: none solid none solid;
+        border-width: 1px;
+        border-color: rgb(240, 240, 238);
+        /* bottom: auto; */
+    }
+    
+    .content-2 {
+        background-color: rgb(250, 250, 250);
+        padding-top: 10px;
+        margin-left: 20px;
+        width: 70%;
+    }
+    
+    .content-2_part1,
+    .content-2_part2 {
+        background-color: white;
+    }
+    
+    .content2_text2,
+    .content2_text1 {
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .content2_text1--span,
+    .author-sp {
+        color: rgb(140, 145, 145);
+    }
+    
+    .content-2_btn {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .content-2_btn-1 {
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(213, 225, 236);
+        margin: 5px 20px;
+        background-color: azure;
+        height: 30px;
+    }
+    
+    .content-2_btn-2 {
+        margin: 5px 20px;
+        background-color: black;
+        display: flex;
+        text-align: center;
+    }
+    
+    .replies {
+        display: flex;
+        border-style: solid;
+        border-width: 1px;
+        background-color: black;
+        color: white;
+        margin: 8px 8px;
+    }
+    
+    .content-2_btn-2--box {
+        margin: 6px 10px 4px 4px;
+        background-color: white;
+        height: 19px;
+        width: 19px;
+    }
+    
+    .fa-thumbs-up {
+        padding: 4px;
+    }
+    
+    .like {
+        border-style: none;
+        background-color: #F0FFFF;
+        margin-right: 6px;
+    }
+    
+    .img-man-hat,
+    .img-girl-hat {
+        margin-left: 20px;
+        width: 95%;
+    }
+    
+    .avatar_smoke {
+        margin-left: 20px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        width: 20%;
+        object-fit: contain;
+    }
+    
+    .author {
+        display: flex;
+    }
+    
+    .author_name {
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    
+    .content {
+        margin-left: 20px;
+    }
+    
+    .content-3 {
+        background-color: rgb(250, 250, 250);
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 30%;
+        /* flex-grow: 1; */
+    }
+    
+    .content3-text1 {
+        background-color: black;
+        color: rgb(248, 245, 245);
+        margin-top: -28px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .content3-part1-t1 {
+        margin-left: 10px;
+        margin-right: 6px;
+    }
+    
+    .avatar_girl2 {
+        margin-top: 20px;
+        width: 100%;
+        margin-right: 0px;
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+    }
+    
+    .bold {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    
+    .header__notify-header {
+        height: 40px;
+        background-color: black;
+        margin-top: 30px;
+    }
+    
+    .header__notify-header h3 {
+        color: rgb(255, 255, 255);
+        margin: 0 0 5px 12px;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 40px;
+        user-select: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .header__notify-list {
+        padding-left: 0;
+        margin-top: -2px;
+    }
+    
+    .header__notify-item {
+        display: flex;
+    }
+    
+    .header__notify-item:hover {
+        background-color: #f7f7f7;
+    }
+    
+    .header__notify-item--viewed {
+        background-color: white;
+    }
+    
+    .header__notify-link {
+        display: flex;
+        padding: 12px;
+        width: 100%;
+        text-decoration: none;
+    }
+    
+    .header__notify-img {
+        width: 48px;
+        object-fit: contain;
+    }
+    
+    .header__notify-info {
+        margin-left: 12px;
+    }
+    
+    .header__notify-name {
+        display: block;
+        font-size: 1.4rem;
+        color: #333;
+        font-weight: 400;
+        line-height: 1.8rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .header__notify-discription {
+        display: block;
+        font-size: 1.2rem;
+        color: gray;
+        line-height: 1.6rem;
+        margin-top: 4px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .notify-list {
+        background-color: white;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        /* margin-left: 10px; */
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .notify-list-name:hover {
+        cursor: pointer;
+        color: white;
+        background-color: black;
+    }
+    
+    .notify-list-name {
+        background-color: #e1f1f1;
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+    }
+    
+    .notify-list_img {
+        background-color: white;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    
+    .notify-list_img-name {
+        width: 42%;
+        height: 155px;
+        margin: 6px 10px;
+        object-fit: cover;
+    }
+    
+    .content-3-part6 {
+        padding-bottom: 30px;
+    }
+    
+    .list_follow-item {
+        list-style: none;
+        background-color: white;
+        height: 50px;
+    }
+    
+    .list_follow-icon-link {
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    
+    .list_follow-icon-link:hover {
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    
+    .list_follow-icon {
+        font-size: 1.6rem;
+        color: black;
+        margin-top: 10px;
+    }
+    
+    .subcribe {
+        background-color: white;
+        height: 160px;
+        padding-top: 10px;
+    }
+    
+    .subcribe h4 {
+        margin: 0px 8px;
+    }
+    
+    .auth-form__group {
+        margin: 10px 8px;
+        width: 100%;
+    }
+    
+    .auth-form__input {
+        width: 100%;
+        height: 40px;
+        margin-top: 16px;
+        padding: 0 12px;
+        font-size: 1rem;
+        border-radius: 2px;
+        border: 1px solid #e9eeee;
+        outline: none;
+    }
+    
+    .auth-form__input:focus {
+        border-color: #888;
+    }
+    
+    .auth-form__control {
+        margin-top: 20px;
+        margin-left: 8px;
+    }
+    
+    .subcribe-btn {
+        width: 100%;
+        background-color: rgb(236, 84, 28);
+        border-radius: 2px;
+        border: 1px solid #e9eeee;
+        outline: none;
+        height: 30px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .footer {
+        margin-top: 80px;
+        height: 100px;
+        background-color: rgb(161, 163, 165);
+    }
+    
+    .footer_btn {
+        margin: 0px 20px;
+    }
+    
+    .btn-to-the-top {
+        background-color: black;
+        color: aliceblue;
+        font-size: 0.8rem;
+        height: 30px;
+        margin-top: 10px;
+        border-radius: 0.2rem;
+    }
+    
+    .btn-icon {
+        margin: 4px;
+        font-size: 0.8rem;
+    }
+    
+    .footer_link {
+        margin: 0 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(253, 247, 247);
+    }
+    
+    .ft-link {
+        color: rgb(253, 247, 247);
+    }
+    
+    @media screen and (max-width: 600px) {
+        .big-content {
+            width: 100%;
+            display: block;
+        }
+    }
